@@ -1,0 +1,13 @@
+**/*.o
+**/*.out
+**/*.d
+**/*~
+**/*.bak
+**/*.plist
+**/*.class
+.vscode/
+Integers/integers
+Integers/tests
+Integers/tests.out
+part2_results.json
+oclint_report.html
