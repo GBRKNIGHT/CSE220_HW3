@@ -56,7 +56,7 @@ public class FloatDecompose {
      * @param args
      */
     public static void main(String[] args) {
-        // TODO: remove main
+        // TODO: remove main before submit
         Scanner stdin = new Scanner(System.in);
         System.out.println("Hello World, please enter below: ");
         String userInputLine = stdin.nextLine();
