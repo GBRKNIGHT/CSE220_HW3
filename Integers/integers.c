@@ -5,7 +5,33 @@
 // FILL IN THE BODY OF THIS FUNCTION.
 // Feel free to create any other functions you like; just include them in this file.
 void repr_convert(char source_repr, char target_repr, unsigned int repr) {
+    switch (source_repr){
+        case '1':
+            switch (target_repr){
+                case '1':
+                    printf("%X hexadecimal with upper case letters.\n", repr);
+                    break;
+                case '2':
+                    break;
+                case 'S':
+                    break;
+                case 'D':
+                    break;
+                default:
+                    break;
+            }
+        break;
+        case '2':
+            break;
+        case 'S':
+            break;
+        case 'D':
+            break;
+        default:
+            break;
+    }
 }
+
 
 // DO NOT CHANGE ANY CODE BELOW THIS LINE
 int main(int argc, char *argv[]) {
